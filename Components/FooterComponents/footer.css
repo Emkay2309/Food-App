@@ -1,0 +1,47 @@
+
+.footerHeadBox{
+    height: 150px;
+    border: 1px solid black;
+    background-color: #f0f0f5 ;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.FooterHeadImage{
+    display: flex;
+    flex-direction: row;   
+}
+
+.box{
+    border: 1px solid #121110;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    padding: 10px;
+    background-color:  #121110;
+}
+
+.store-logo{
+    height: 30px;
+    width: 30px; 
+    color: aquamarine;
+}
+
+.store-text {
+    font-size: 10px;
+    color: white;
+}
+
+.footerFoot{
+    height:200px;
+    border: 1px solid black;
+    background-color: #121110;
+    
+}
+
+
+

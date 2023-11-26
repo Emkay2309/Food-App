@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items > ul {
+    display: flex;
+}
+
+.nav-items > ul > li {
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.logo > img{
+    height: 100px;
+    width: 150px;
+}
+
