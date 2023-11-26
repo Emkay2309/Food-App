@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Body.css";
+import CDN_URL from "./../../utils/constant"
 
 
-const url = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
-
+const url = CDN_URL;
 
 function Card({imgId , name , rating , cuisines , edt , locality}) {
   return (
@@ -17,5 +17,4 @@ function Card({imgId , name , rating , cuisines , edt , locality}) {
     </div>
   )
 }
-
 export default Card

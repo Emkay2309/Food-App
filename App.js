@@ -5,21 +5,6 @@ import Foot from "./Components/FooterComponents/Footer.js";
 import Body from "./Components/BodyComponents/Body.js";
 
 
-/* header
-        -- logo
-        -- nav-items
-        -- cart
-    body 
-        -- search
-        -- food-container
-        -- food-card
-    footer
-        -- copyright
-        -- links
-        -- address
-        -- contact
-*/
-
 const Main = ()=> {
     return (
         <>
