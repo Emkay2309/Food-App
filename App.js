@@ -5,7 +5,6 @@ import Foot from "./Components/FooterComponents/Footer.js";
 import Body from "./Components/BodyComponents/Body.js";
 
 
-
 /* header
         -- logo
         -- nav-items
@@ -19,8 +18,6 @@ import Body from "./Components/BodyComponents/Body.js";
         -- links
         -- address
         -- contact
-
-
 */
 
 const Main = ()=> {
@@ -28,7 +25,7 @@ const Main = ()=> {
         <>
             <div>
                 <Head/>
-                {/* <Body/> */}
+                <Body/>
                 <Foot/>
             </div>
         </>
